@@ -39,7 +39,7 @@ const Collection = (nft) => {
 
     return (
         <tr>
-            <td><a href={`https://opensea.com/collection/${nft.name}`} className="text-decoration-none" target="_blank" rel="noreferrer">{name}</a></td>
+            <td><a href={`https://opensea.io/collection/${nft.name}`} className="text-decoration-none" target="_blank" rel="noreferrer">{name}</a></td>
             <td className="text-end fw-bold">{floorPrice}</td>
             <td className="text-end">{supply}</td>
             <td className="text-end">{owners}</td>

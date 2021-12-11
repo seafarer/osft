@@ -25,6 +25,8 @@ const IndexPage = () => {
                     <th scope="col" className="text-end">1 Day %</th>
                     <th scope="col" className="text-end">7 Day Vol</th>
                     <th scope="col" className="text-end">7 Day %</th>
+                    <th scope="col" className="text-center">Nansen</th>
+                    <th scope="col" className="text-center">Icy</th>
                     <th scope="col">Contract</th>
                 </tr>
                 </thead>

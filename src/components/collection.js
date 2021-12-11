@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react"
 import "../scss/index.scss"
+import nansen_logo from "../images/nansen_logo.png"
+import icy_tools from "../images/icy-tools.png"
 
 const Collection = (nft) => {
 
@@ -37,16 +39,26 @@ const Collection = (nft) => {
 
     return (
         <tr>
-            <td><a href={`https://opensea.com/collection/${nft.name}`} className="text-decoration-none" target="_blank">{name}</a></td>
+            <td><a href={`https://opensea.com/collection/${nft.name}`} className="text-decoration-none" target="_blank" rel="noreferrer">{name}</a></td>
             <td className="text-end fw-bold">{floorPrice}</td>
             <td className="text-end">{supply}</td>
             <td className="text-end">{owners}</td>
             <td className="text-end">{(owners / supply).toFixed(2)}%</td>
             <td className="text-end">{oneDaySales}</td>
-            <td className="text-end">{oneDayVol.toFixed(2)}%</td>
-            <td className="text-end">{oneDayChange.toFixed(2)}%</td>
-            <td className="text-end">{sevenDayVol.toFixed(2)}%</td>
-            <td className="text-end">{sevenDayChange.toFixed(2)}%</td>
+            <td className="text-end">{oneDayVol.toFixed(2)}</td>
+            {oneDayChange > 0 ? (
+                <td className="text-end text-success">{oneDayChange.toFixed(2)}%</td>
+            ) : (
+                <td className="text-end text-danger">{oneDayChange.toFixed(2)}%</td>
+            )}
+            <td className="text-end">{sevenDayVol.toFixed(2)}</td>
+            {sevenDayChange > 0 ? (
+                <td className="text-end text-success">{sevenDayChange.toFixed(2)}%</td>
+            ) : (
+                <td className="text-end text-danger">{sevenDayChange.toFixed(2)}%</td>
+            )}
+            <td className="text-center"><a href={`https://pro.nansen.ai/nft-god-mode?nft_address=${contract}`} target="_blank" rel="noreferrer"><img src={nansen_logo} alt="nansen" width={30}/></a></td>
+            <td className="text-center"><a href={`https://icy.tools/collections/${contract}`} target="_blank" rel="noreferrer"><img src={icy_tools} alt="nansen" width={23}/></a></td>
             <td>{contract}</td>
         </tr>
 

@@ -12,28 +12,31 @@ const IndexPage = () => {
                     <h1 className="text-uppercase fw-bold text-center"><a className="fs-3 navbar-brand" href="/">Open Sea Floor Tracker</a></h1>
                 </div>
             </nav>
-            <table className="table">
-                <thead className="table-dark">
-                <tr>
-                    <th scope="col">Collection</th>
-                    <th scope="col" className="text-end">Floor</th>
-                    <th scope="col" className="text-end">Supply</th>
-                    <th scope="col" className="text-end">Owners</th>
-                    <th scope="col" className="text-end">Owner %</th>
-                    <th scope="col" className="text-end">24hr sales</th>
-                    <th scope="col" className="text-end">1 Day Vol</th>
-                    <th scope="col" className="text-end">1 Day %</th>
-                    <th scope="col" className="text-end">7 Day Vol</th>
-                    <th scope="col" className="text-end">7 Day %</th>
-                    <th scope="col" className="text-center">Nansen</th>
-                    <th scope="col" className="text-center">Icy</th>
-                    <th scope="col">Contract</th>
-                </tr>
-                </thead>
-                <tbody>
-                    <Nft />
-                </tbody>
-            </table>
+            <div className="table-responsive">
+                <table className="table table-striped align-middle">
+                    <thead className="table-dark">
+                    <tr>
+                        <th scope="col" colspan="2">Collection</th>
+                        <th scope="col" className="text-end">Floor</th>
+                        <th scope="col" className="text-end">Supply</th>
+                        <th scope="col" className="text-end">Owners</th>
+                        <th scope="col" className="text-end">Owner %</th>
+                        <th scope="col" className="text-end">24hr sales</th>
+                        <th scope="col" className="text-end">1 Day Vol</th>
+                        <th scope="col" className="text-end">1 Day %</th>
+                        <th scope="col" className="text-end">7 Day Vol</th>
+                        <th scope="col" className="text-end">7 Day %</th>
+                        <th scope="col" className="text-center">Nansen</th>
+                        <th scope="col" className="text-center">Icy</th>
+                        <th scope="col" className="text-center">Twitter</th>
+                        <th scope="col">Contract</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <Nft />
+                    </tbody>
+                </table>
+            </div>
         </div>
 
     )

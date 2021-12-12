@@ -38,7 +38,6 @@ const Collection = (nft) => {
                 setSevenDayChange(resultData.collection.stats.seven_day_change)
                 setTwitter(resultData.collection.twitter_username)
                 setContract(resultData.collection.primary_asset_contracts[0].address)
-                console.log(resultData)
             })
             .catch(err => console.error(err))
     }, [nft])

@@ -62,6 +62,10 @@ function Seo({ description, title }) {
                     name: `twitter:description`,
                     content: description,
                 },
+                {
+                    name: `twitter:image`,
+                    content: prayer,
+                }
             ].concat()}
         />
     )

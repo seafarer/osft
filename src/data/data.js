@@ -73,5 +73,9 @@ export const nftData = [
   "loopy-donuts",
   "sadgirlsbar",
   "kumo-x-world-residents",
-  "playsherbet"
+  "playsherbet",
+  "thingdoms-nft-official",
+  "duskbreakers",
+  "crypto-bull-society",
+  "midnightbreeze"
 ]

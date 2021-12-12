@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://nifty-borg-c8fe62.netlify.app/",
-    title: "OpenSea Stats and Floor Tracker",
+    siteUrl: "https://www.floorprice.wtf",
+    title: "Floor price WTF | OpenSea Stats and Floor Tracker",
     description:
-        "Simple OpenSea Stats and Floor tracker.",
+        "Can devs do something?",
     author: "@cspacler",
   },
   plugins: [
@@ -17,7 +17,6 @@ module.exports = {
       options: {
         name: "images",
         path: "./src/images/",
-        icon: "./src/images/icon.png"
       },
       __key: "images",
     },

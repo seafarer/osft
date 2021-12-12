@@ -6,6 +6,7 @@
  */
 
 import * as React from "react"
+import pepe from "../images/pepe-the-frog-hands.png"
 import { Helmet } from "react-helmet"
 
 function Seo({ description, title }) {
@@ -13,10 +14,20 @@ function Seo({ description, title }) {
     return (
         <Helmet
             title={title}
+            link={[
+                {
+                    rel: `icon`,
+                    href: pepe
+                }
+            ]}
             meta={[
                 {
                     name: `description`,
                     content: description,
+                },
+                {
+                    name: `icon`,
+                    href: pepe
                 },
                 {
                     property: `og:title`,

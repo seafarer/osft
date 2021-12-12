@@ -66,7 +66,11 @@ const Collection = (nft) => {
             <td className="text-center"><a href={`https://pro.nansen.ai/nft-god-mode?nft_address=${contract}`} target="_blank" rel="noreferrer"><img src={nansen_logo} alt="nansen" width={30}/></a></td>
             <td className="text-center"><a href={`https://icy.tools/collections/${contract}`} target="_blank" rel="noreferrer"><img src={icy_tools} alt="nansen" width={23}/></a></td>
             <td className="text-center"><a href={`https://www.twitter.com/${twitter}`} target="_blank" rel="noreferrer"><img src={twitter_logo} alt="twitter" width={24} /></a></td>
-            <td>{contract}</td>
+            {contract.length > 0 ? (
+                <td>{contract}</td>
+            ) : (
+                <td>ERC-1155</td>
+            )}
         </tr>
 
     )

@@ -1,6 +1,7 @@
 import * as React from "react"
 import "../scss/index.scss"
 import pepe from "../images/pepe-the-frog-hands.gif"
+import twitter from "../images/twitter-white.svg"
 import Nft from "../components/nfts"
 import Seo from "../components/seo"
 const IndexPage = () => {
@@ -12,13 +13,22 @@ const IndexPage = () => {
                 description="Can dev's do something?"
             />
             <nav className="navbar navbar-dark bg-primary bg-gradient">
-                <div className="container-fluid justify-content-center">
-                    <img src={pepe} alt="pepe crying" width={50} className="me-3" />
+                <div className="container-fluid">
                     <h1 className="text-uppercase fw-bold text-center">
+                        <img src={pepe} alt="pepe crying" width={50} className="me-3" />
                         <a className="fs-3 navbar-brand" href="/">
                             Floor Price WTF<span className="fw-normal"> | </span>
                             <span className="fst-italic text-normal pb-1 fw-normal">"Can devs do something?"</span>
-                        </a></h1>
+                        </a>
+                    </h1>
+                    <div>
+                        <span className="navbar-text">
+                            Made by @SPACKLΞ.eth
+                            <a href="https://www.twitter.com/cspacler" target="_blank" rel="noreferrer">
+                                <img className="ms-2 c-twitter-bio" src={twitter} alt="twitter" width={20} />
+                            </a>
+                        </span>
+                    </div>
                 </div>
             </nav>
             <div className="table-responsive">

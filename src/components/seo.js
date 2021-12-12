@@ -7,6 +7,7 @@
 
 import * as React from "react"
 import pepe from "../images/pepe-the-frog-hands.png"
+import prayer from "../images/pepe-prayer.png"
 import { Helmet } from "react-helmet"
 
 function Seo({ description, title }) {
@@ -36,6 +37,10 @@ function Seo({ description, title }) {
                 {
                     property: `og:description`,
                     content: description,
+                },
+                {
+                    name: `og:image`,
+                    content: prayer,
                 },
                 {
                     property: `og:type`,

@@ -4,3 +4,14 @@ $font-family-base: 'IBM Plex Sans Condensed', sans-serif;
 $primary: #2081e2;
 @import '~bootstrap/scss/bootstrap';
 
+.c-table-header {
+  font-size: 12px;
+
+  @media (min-width: 1600px) {
+    font-size: 16px;
+  }
+}
+
+.text-normal {
+  text-transform: none;
+}

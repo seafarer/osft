@@ -9,7 +9,7 @@ const IndexPage = () => {
 
         <div className="all">
             <Seo title="Floor Price WTF - OpenSea Stats and Floor Tracker"
-                description="A simple app to track some top projects on OpenSea"
+                description="Can dev's do something?"
             />
             <nav className="navbar navbar-dark bg-primary bg-gradient">
                 <div className="container-fluid justify-content-center">

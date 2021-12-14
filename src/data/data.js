@@ -78,5 +78,6 @@ export const nftData = [
   "duskbreakers",
   // "crypto-bull-society",
   "midnightbreeze",
-  "propertysofficial"
+  "propertysofficial",
+  "cryptocoven"
 ]

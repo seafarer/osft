@@ -19,6 +19,7 @@ export const nftData = [
     "galacticapes",
     "cyberkongz-vx",
     "filaments-art",
+    "zenapenft",
     "thelittlesnft",
     "chain-runners-nft",
     "onchainmonkey",

@@ -1,6 +1,6 @@
 import * as React from "react"
 import "../scss/index.scss"
-import pepe from "../images/pepe-the-frog-hands.gif"
+import pepe from "../images/pepe-the-frog-hands.png"
 import twitter from "../images/twitter-white.svg"
 import Nft from "../components/nfts"
 import Seo from "../components/seo"

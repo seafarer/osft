@@ -42,6 +42,7 @@ export const nftData = [
     "toyfrens",
     "the-pixels-inc",
     "cosmiclabs",
+    "sneaky-vampire-syndicate",
     // "crypto-bull-society",
     "world-of-women-nft",
     "desperate-ape-wives",

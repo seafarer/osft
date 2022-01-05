@@ -15,7 +15,6 @@ const IndexPage = () => {
             <nav className="navbar navbar-dark bg-primary bg-gradient">
                 <div className="container-fluid">
                     <h1 className="text-uppercase fw-bold text-center">
-                        <img src={pepe} alt="pepe crying" width={50} className="me-3" />
                         <a className="fs-3 navbar-brand" href="/">
                             Floor Price WTF<span className="fw-normal"> | </span>
                             <span className="fst-italic text-normal pb-1 fw-normal">"Can devs do something?"</span>

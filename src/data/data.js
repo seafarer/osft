@@ -32,6 +32,8 @@ export const nftData = [
     "clonex",
     "metroverse",
     "galacticapes",
+    "dystoapez-official",
+    "space-yetis-official",
     "cyberkongz-vx",
     "filaments-art",
     "zenapenft",

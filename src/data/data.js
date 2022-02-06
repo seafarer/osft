@@ -18,6 +18,7 @@ export const nftData = [
     "projectnanopass",
     "mev-army",
     "killergf",
+    "persona-lamps",
     "azuki",
     "livesofasuna",
     "mutantflokiwilljack",

@@ -38,6 +38,7 @@ export const nftData = [
     "space-yetis-official",
     "cyberkongz-vx",
     "filaments-art",
+    "blu3prints",
     "zenapenft",
     "thelittlesnft",
     "onchainmonkey",

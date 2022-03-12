@@ -1,6 +1,8 @@
 export const nftData = [
     "thingdoms",
     "metahero-generative",
+    "tubby-cats",
+    "blockchain-bandits-official",
     "kaiju-kingz",
     "boredapeyachtclub",
     "mutant-ape-yacht-club",
@@ -99,7 +101,6 @@ export const nftData = [
     "marscatsvoyage",
     "fastfoodfrenscollection",
     "punkscapes",
-    "sadgirlsbar",
     "kumo-x-world-residents",
     "playsherbet",
     "animetas",

@@ -45,7 +45,11 @@ const Collection = (nft) => {
         <tr>
             <td className="text-center"><img src={`${icon}`}  width={50} alt="icon" /></td>
             <td><a href={`https://opensea.io/collection/${nft.name}`} className="text-decoration-none" target="_blank" rel="noreferrer">{name}</a></td>
-            <td className="text-end fw-bold">{floorPrice.toFixed(2)}</td>
+            {floorPrice > 0 ? (
+                <td className="text-end fw-bold">{floorPrice.toFixed(2)}</td>
+            ) : (
+                <td className="text-end fw-bold">No data</td>
+            )}
             <td className="text-end">{supply}</td>
             <td className="text-end">{owners}</td>
             <td className="text-end">{Math.round((owners / supply) * 100)}%</td>

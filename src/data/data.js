@@ -14,6 +14,8 @@ export const nftData = [
     "capsulehouse",
     "azuki",
     "3landers",
+    "antonymgenesis",
+    "wabi-sabi-official",
     "coolmans-universe",
     "tos-theotherside",
     "edenhorde-official",

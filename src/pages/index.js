@@ -23,7 +23,7 @@ const IndexPage = () => {
                     <div>
                         <span className="navbar-text">
                             Made by @SPACKLΞ.eth
-                            <a href="https://www.twitter.com/cspacler" target="_blank" rel="noreferrer">
+                            <a href="https://www.twitter.com/minmintooor" target="_blank" rel="noreferrer">
                                 <img className="ms-2 c-twitter-bio" src={twitter} alt="twitter" width={20} />
                             </a>
                         </span>
